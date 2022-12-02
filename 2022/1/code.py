@@ -3,7 +3,7 @@ def getCal(currentElf):
     
 # [[elfIndex, elfCalories]]
 myElves = [[0, 0]]
-with open('dayOneInput.txt', "r") as f:
+with open('input.txt', "r") as f:
     while True:
         line = f.readline()
         if line:

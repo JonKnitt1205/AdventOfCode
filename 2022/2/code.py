@@ -1,5 +1,5 @@
 def partOne():
-    with open("dayTwoInput.txt", "r") as f:
+    with open("input.txt", "r") as f:
         score = 0
         while True:
             line = f.readline()
@@ -27,7 +27,7 @@ def partOne():
         return score
 
 def partTwo():
-    with open("dayTwoInput.txt", "r") as f:
+    with open("input.txt", "r") as f:
         score = 0
         while True:
             line = f.readline()
