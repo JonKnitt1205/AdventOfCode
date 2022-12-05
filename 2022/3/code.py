@@ -11,7 +11,7 @@ def partOne():
                     if first[i] in second:
                         match = first[i]
                         break
-                if ord(match) <= 90:
+                if match.isupper():
                     total += 26
                     match = match.lower()
                 total += (ord(match) - 96)     
@@ -34,10 +34,10 @@ def partTwo():
                     if group[0][i] in group[1] and group[0][i] in group[2]:
                         match = group[0][i]
                         break
-                if ord(match) <= 90:
+                if match.isupper():
                     total += 26
                     match = match.lower()
-                total += (ord(match) - 96)     
+                total += (ord(match) - 96)   
             else:
                 break
         return total
